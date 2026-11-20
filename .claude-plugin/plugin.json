@@ -2,7 +2,7 @@
   "name": "depost-linkedin-strategist",
   "displayName": "LinkedIn Content Strategist",
   "version": "0.1.0",
-  "description": "Turn Claude into a LinkedIn content strategist that works from your own numbers: what measurably beats your average, your voice, your gaps, your next post. Requires a Depost AI connector for the data.",
+  "description": "A LinkedIn content system that works from your own numbers: six agents and eight workflows for what measurably beats your average, your voice, your gaps and your next post. Requires a Depost AI connector for the data.",
   "author": {
     "name": "Depost AI",
     "url": "https://depost.ai"
@@ -15,6 +15,7 @@
     "content-strategy",
     "analytics",
     "writing",
-    "social-media"
+    "social-media",
+    "agents"
   ]
 }
