@@ -1,0 +1,7 @@
+{
+  "name": "depost",
+  "owner": { "name": "Depost AI", "url": "https://depost.ai" },
+  "plugins": [
+    { "name": "depost-linkedin-strategist", "source": "./" }
+  ]
+}
