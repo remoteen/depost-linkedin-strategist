@@ -1,7 +1,7 @@
 {
   "name": "depost-linkedin-strategist",
   "displayName": "LinkedIn Content Strategist",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Score your LinkedIn posts against your own average from the analytics file you export yourself, and write posts that do not read as machine-written - both with no account. Connect Depost AI for the niche comparison, your voice and the full strategist.",
   "author": {
     "name": "Depost AI",
@@ -17,7 +17,5 @@
     "writing",
     "social-media",
     "agents"
-  ],
-  "documentationUrl": "https://depost.ai/blog/connect-claude-to-linkedin",
-  "supportUrl": "https://depost.ai"
+  ]
 }
