@@ -1,7 +1,7 @@
 # LinkedIn Content Strategist
 
 A content system that works from **your** LinkedIn numbers instead of general advice
-about LinkedIn. Six agents and eight workflows, over the Depost AI connector.
+about LinkedIn. Eight agents and eleven workflows, over the Depost AI connector.
 
 LinkedIn's own analytics tell you what a post got. They do not tell you which of your
 post shapes beat your own average, which opener works for an account your size, or
@@ -21,7 +21,7 @@ shapes that measurably work, the format that is costing you, how you actually so
 the gaps, and three things to do next — each with the number behind it. Including the
 section most reports leave out: what could not be measured, and why.
 
-## The six agents
+## The eight agents
 
 Each one takes a job, works on its own, and comes back with a result.
 
@@ -33,8 +33,10 @@ Each one takes a job, works on its own, and comes back with a result.
 | `voice-profiler` | How you actually write, derived from your published posts rather than described in adjectives |
 | `content-researcher` | What you have already said on a subject, what you saved about it, how strong writers handled it |
 | `content-planner` | A plan built from your backlog, your stated priorities and the gaps |
+| `trend-analyst` | What is rising and fading in your niche, and which of it you could credibly write |
+| `idea-miner` | Mines posts that worked for other writers for structures you could use, checked against your own history |
 
-## The eight workflows
+## The eleven workflows
 
 The same work, available directly in a conversation — and three things the agents
 deliberately leave alone, because they need you in the room.
@@ -49,8 +51,12 @@ deliberately leave alone, because they need you in the room.
 | `write-post` | A draft in your voice, in a shape the numbers support, sources recorded |
 | `post-critique` | Whether a draft reads as machine-written, and whether its shape works for you |
 | `brand-visual` | An image in your own brand look, not a generic template |
+| `viral-search` | Find posts that worked on a subject, by format, hook type, industry or date |
+| `viral-trends` | What is rising and fading in your niche right now |
+| `viral-ideas` | Turn other writers' structures into ideas only you could write |
 
-Writing, critique and visuals are workflows and not agents on purpose. Each needs your
+Searching the library is a workflow and not an agent because it is a lookup you want
+back immediately. Writing, critique and visuals are workflows on purpose too. Each needs your
 judgement partway through — a blank only you can fill, a draft you paste in, a picture
 you look at — and a job that goes away and comes back is the wrong shape for that.
 
@@ -60,8 +66,8 @@ Claude's surfaces load different things, so this is worth knowing before you ins
 
 | | Claude chat | Cowork | Claude Code |
 | --- | --- | --- | --- |
-| The eight workflows | yes | yes | yes |
-| The six agents | no | yes | yes |
+| The eleven workflows | yes | yes | yes |
+| The eight agents | no | yes | yes |
 
 Nothing breaks in chat — the workflows cover the same ground, you just drive them in
 the conversation instead of handing a job over. Ask *what works on my LinkedIn* rather
@@ -113,6 +119,9 @@ post, or a message to anyone.
 - *Review my last 30 days.*
 - *Have I already covered pricing? Give me two angles I have not used.*
 - *Draft Thursday's post about the migration, in my voice.*
+- *What is rising in my niche right now, and what is fading?*
+- *Find me posts that worked on founder-led sales, opened with a bold claim.*
+- *Give me five ideas from what is working in my industry, that I have not covered.*
 - *Here is a draft. Does it read as AI, and is this shape right for me?*
 
 ## What it does not do
