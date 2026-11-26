@@ -150,6 +150,25 @@ to post" turned out to be one good post wearing a pattern's clothes.*
 > strong matches that all underperformed means the subject was not the problem; the
 > shape was.
 
+## It reads like an answer, not a database
+
+Every skill here follows one presentation standard, because analysis you have to decode
+is analysis that failed:
+
+- **The finding in the first line.** No preamble, no narrating which tools it is about
+  to call.
+- **No internal keys.** "a giveaway with a real asset", never `lead_magnet_giveaway`.
+  "Not enough posts yet to say", never `not_enough`.
+- **Every number carries what it rests on.** `1.23× your typical post, from 13 posts` —
+  because three posts and three hundred are different facts, and a bare multiple hides
+  which one you have.
+- **Caveats sit beside the number**, not in a closing paragraph nobody reads.
+- **One line on what it skipped**, and why.
+- **One next step at the end**, not a menu of four.
+
+Ask *show me that as a table* or *shorter* and it reshapes what it already has without
+re-running anything, so the numbers cannot quietly change.
+
 ## The eight agents
 
 Each takes a job, works on its own, and comes back with a result.
@@ -165,7 +184,7 @@ Each takes a job, works on its own, and comes back with a result.
 | `trend-analyst` | What is rising and fading in your niche, and which of it you could credibly write |
 | `idea-miner` | Mines posts that worked for other writers for structures you could use, checked against your own history |
 
-## The thirteen workflows
+## The fourteen workflows
 
 | Workflow | Needs an account? |
 | --- | --- |
@@ -182,8 +201,9 @@ Each takes a job, works on its own, and comes back with a result.
 | `viral-search` · posts that worked, by format, hook type, industry or date | yes |
 | `viral-trends` · what is rising and fading in your niche | yes |
 | `viral-ideas` · other writers' structures as ideas only you could write | yes |
+| `present-results` · show an answer again, clearer, shorter or as a table | either |
 
-A fourteenth, `connect-depost`, handles setup.
+A fifteenth, `connect-depost`, handles setup.
 
 Writing, critique and visuals are workflows and not agents on purpose: each needs you
 partway through — a blank only you can fill, a draft you paste in, a picture you look
@@ -194,7 +214,7 @@ search stays a workflow because it is a lookup you want back immediately.
 
 | | Claude chat | Cowork | Claude Code |
 | --- | --- | --- | --- |
-| The thirteen workflows | yes | yes | yes |
+| The fourteen workflows | yes | yes | yes |
 | The eight agents | no | yes | yes |
 
 Nothing breaks in chat — the workflows cover the same ground, you just drive them in
