@@ -1,8 +1,8 @@
 {
   "name": "depost-linkedin-strategist",
   "displayName": "LinkedIn Content Strategist",
-  "version": "0.2.1",
-  "description": "A LinkedIn content system that works from your own numbers: eight agents and eleven workflows for what measurably beats your average, what is rising in your niche, your voice, your gaps and your next post. Requires a Depost AI connector for the data.",
+  "version": "0.3.0",
+  "description": "Score your LinkedIn posts against your own average from the analytics file you export yourself, and write posts that do not read as machine-written - both with no account. Connect Depost AI for the niche comparison, your voice and the full strategist.",
   "author": {
     "name": "Depost AI",
     "url": "https://depost.ai"
