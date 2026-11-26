@@ -1,7 +1,14 @@
 {
   "name": "depost",
-  "owner": { "name": "Depost AI", "url": "https://depost.ai" },
+  "owner": {
+    "name": "Depost AI",
+    "url": "https://depost.ai"
+  },
   "plugins": [
-    { "name": "depost-linkedin-strategist", "source": "./" }
+    {
+      "name": "depost-linkedin-strategist",
+      "source": "./",
+      "displayName": "LinkedIn Strategist Agents"
+    }
   ]
 }

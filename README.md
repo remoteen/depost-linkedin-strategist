@@ -1,4 +1,4 @@
-# LinkedIn Content Strategist
+# LinkedIn Strategist Agents
 
 A content system that works from **your** LinkedIn numbers instead of general advice
 about LinkedIn.
@@ -225,7 +225,7 @@ the conversation instead of handing a job over.
 **Claude (chat, desktop, mobile)**
 
 1. **Customize → Plugins → Add → Add marketplace**, and paste this repository's URL.
-2. Install **LinkedIn Content Strategist**.
+2. Install **LinkedIn Strategist Agents**.
 3. Ask: *my LinkedIn scorecard*.
 
 **Claude Code**
