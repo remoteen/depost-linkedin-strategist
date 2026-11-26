@@ -85,15 +85,60 @@ from your writing, your saved ideas and knowledge base, and a reference library 
 146,745 high-performing posts from 660 creators, each scored against its own writer's
 typical post.
 
-## Install
+→ **[depost.ai](https://depost.ai)** · [start free, no card](https://app.depost.ai/signup) · [pricing](https://depost.ai/pricing)
+
+## Get your key
+
+**1. Create a Depost account and connect LinkedIn.** [app.depost.ai/signup](https://app.depost.ai/signup).
+Depost imports your post history and runs the first analysis — that history is what
+every measurement here is computed from, so do this before you install the plugin.
+
+**2. Create the key.** In Depost AI, open
+**[Settings → MCP](https://app.depost.ai/settings/mcp)** and create one. It starts
+`dp_mcp_`. The page gives you a connection URL with the key already in it.
+
+**3. Tick the permissions you want.** A new key gets four by default, and they cover
+almost everything here:
+
+| Permission | Default | What stops working without it |
+| --- | --- | --- |
+| Context, content and analytics read | **on** | Everything. This is the data |
+| Drafts write | **on** | Saving drafts and ideas |
+| Visual read | off | `brand-visual` — your brand kit and looks |
+| Media write | off | Attaching a generated image to a draft |
+| Publishing | **off** | Scheduling and publishing |
+| Leads read | off | Reading your prospect lists |
+
+**A key cannot publish anything unless you tick Publishing yourself.** It is off when
+the key is made. Leave it off and the whole system still analyses, researches, plans,
+writes and saves — it just cannot put anything on LinkedIn. That is the recommended
+setup.
+
+**4. Connect it.**
+
+In Claude (chat, desktop, mobile): **Settings → Connectors → Add custom connector**,
+and paste the connection URL.
+
+In Claude Code:
+
+```bash
+claude mcp add --transport http depost "https://api.depost.ai/mcp" \
+  --header "Authorization: Bearer YOUR_DEPOST_KEY"
+```
+
+Treat the key as a password. It does not go in a repository, a post, or a message to
+anyone.
+
+**The full walkthrough, with screenshots of every step:**
+**[How to connect Claude to LinkedIn](https://depost.ai/blog/connect-claude-to-linkedin)**
+
+## Install the plugin
 
 **Claude (chat, desktop, mobile)**
 
 1. **Customize → Plugins → Add → Add marketplace**, and paste this repository's URL.
 2. Install **LinkedIn Content Strategist**.
-3. In Depost AI, open **Settings → MCP**, create a key, and copy the connection URL.
-4. Add that URL in Claude as a custom connector.
-5. Ask: *what works on my LinkedIn?*
+3. Ask: *what works on my LinkedIn?*
 
 **Claude Code**
 
@@ -101,16 +146,6 @@ typical post.
 claude plugin marketplace add remoteen/depost-linkedin-strategist
 claude plugin install depost-linkedin-strategist@depost
 ```
-
-Then add the connector:
-
-```bash
-claude mcp add --transport http depost "https://api.depost.ai/mcp" \
-  --header "Authorization: Bearer YOUR_DEPOST_KEY"
-```
-
-Your key starts `dp_mcp_`. Treat it as a password: it does not go in a repository, a
-post, or a message to anyone.
 
 ## Try it
 
@@ -139,6 +174,15 @@ This sends your prompts and the subjects you ask about to your own Depost AI acc
 through `api.depost.ai`, and reads back your brand profile, posts, performance, saved
 material and the reference library. Drafts and ideas you ask to keep are stored in your
 Depost account. The plugin itself stores nothing and contains no credentials.
+
+## Links
+
+- **[depost.ai](https://depost.ai)** — the product
+- **[Connect Claude to LinkedIn](https://depost.ai/blog/connect-claude-to-linkedin)** — the setup guide, with screenshots
+- **[Settings → MCP](https://app.depost.ai/settings/mcp)** — where your key lives
+- **[Start free](https://app.depost.ai/signup)** — no card for the analysis
+- **[Pricing](https://depost.ai/pricing)**
+- **[Blog](https://depost.ai/blog)** — LinkedIn research and guides
 
 ## Licence
 

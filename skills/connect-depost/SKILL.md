@@ -44,22 +44,43 @@ Then say the honest version: anything you write without those is a guess that re
 well. LinkedIn's own analytics do not score a post against the writer's median by
 shape, opener or ending. That comparison is what the connector carries.
 
-**2. Give them the steps.**
+**2. Give them the steps, with the links.**
 
-In Claude (chat, desktop or mobile):
-1. Open Depost AI → **Settings → MCP** and create a key.
-2. Copy the connection URL it gives you.
-3. In Claude, add it as a custom connector and paste the URL.
-4. Start a new chat and ask for a performance review.
+They need a Depost account with LinkedIn connected and the history imported, because
+that history is what every measurement is computed from.
 
-In Claude Code:
-```
-claude mcp add --transport http depost "https://api.depost.ai/mcp" \
-  --header "Authorization: Bearer YOUR_DEPOST_KEY"
-```
+1. Sign up at **https://app.depost.ai/signup** — the analysis needs no card.
+2. Connect LinkedIn in Depost and let the post history import.
+3. Create a key at **https://app.depost.ai/settings/mcp**. It starts `dp_mcp_`, and
+   the page hands back a connection URL with the key in it.
+4. Connect it:
+   - **Claude chat, desktop or mobile:** Settings → Connectors → Add custom connector,
+     and paste the connection URL.
+   - **Claude Code:**
+     ```
+     claude mcp add --transport http depost "https://api.depost.ai/mcp" \
+       --header "Authorization: Bearer YOUR_DEPOST_KEY"
+     ```
+5. Start a new chat and ask for a performance review.
 
-The key starts `dp_mcp_`. It is a credential: it is not pasted into a post, a file in
-a repository, or a message to anyone.
+The full walkthrough with screenshots is at
+**https://depost.ai/blog/connect-claude-to-linkedin** — send them there rather than
+retyping it if they want pictures.
+
+**Which permissions to tick.** A new key gets context, content and analytics read plus
+drafts write, and those four cover almost everything here. Three are off and worth
+knowing about:
+
+- **Visual read** — needed by `brand-visual` for their brand kit and looks.
+- **Media write** — needed to attach a generated image to a draft.
+- **Publishing** — needed only to schedule or publish. **It is off when the key is
+  made.** Say this plainly, because it is the answer to "will this post things without
+  me": with the default key it cannot. Recommend leaving it off; everything except
+  scheduling still works.
+
+The key is a credential. It is not pasted into a post, a file in a repository, or a
+message to anyone. If they share a screenshot of the MCP page, the URL in it contains
+the key and they should make a new one.
 
 **3. Say what the account needs.** The measurements come from the user's own published
 posts, so a brand with no imported history has nothing to measure yet. They connect

@@ -1,7 +1,7 @@
 {
   "name": "depost-linkedin-strategist",
   "displayName": "LinkedIn Content Strategist",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A LinkedIn content system that works from your own numbers: eight agents and eleven workflows for what measurably beats your average, what is rising in your niche, your voice, your gaps and your next post. Requires a Depost AI connector for the data.",
   "author": {
     "name": "Depost AI",
@@ -17,5 +17,7 @@
     "writing",
     "social-media",
     "agents"
-  ]
+  ],
+  "documentationUrl": "https://depost.ai/blog/connect-claude-to-linkedin",
+  "supportUrl": "https://depost.ai"
 }
