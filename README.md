@@ -1,6 +1,10 @@
 # LinkedIn Strategist Agents
 
-<img src="assets/how-it-works.gif" alt="How it works: your LinkedIn export or your connected history goes in; eight agents and fourteen workflows analyse, research, plan, write and design; every answer comes back with the number behind it and how many posts it rests on" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents-orbit-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/how-it-works.gif">
+  <img src="assets/how-it-works.gif" alt="Eight agents that read your own LinkedIn posts first and the niche second: audit, evidence, performance, voice, research, planner, trends and ideas. Every answer comes back with the number behind it and how many posts it rests on." width="100%">
+</picture>
 
 A content system that works from **your** LinkedIn numbers instead of general advice
 about LinkedIn.
