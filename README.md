@@ -50,6 +50,106 @@ shapes that measurably work, the format that is costing you, how you actually so
 the gaps, and three things to do next — each with the number behind it. Including the
 section most reports leave out: what could not be measured, and why.
 
+## How people actually use it
+
+The prompts are ordinary. What makes them worth running is that the answer comes back
+with a number attached and tells you how many of your posts that number rests on.
+
+### Free, before you connect anything
+
+> **"Here is my LinkedIn export. Score my posts."**
+> Every post against your own median, your best three and worst three, the pattern
+> across them — and the three things a file cannot tell you.
+
+> **"Does this draft read as AI?"**
+> Checked against the full standard: the formatting that pastes in as literal
+> characters, the opening that sets a scene instead of making a claim, the tidy lesson
+> at the end.
+
+### Deciding what to write
+
+> **"What works on my LinkedIn, and what am I writing too much of?"**
+
+<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/shapes-framed.png" alt="A table of post shapes, some scoring above the writer's own average and some below, each with the number of posts behind it" width="100%">
+
+*Above your own average in blue, below it in red. The number in brackets is how many of
+your posts each line rests on — which is the part that decides whether to believe it.*
+
+> **"I think carousels work for me. Check that."**
+> It will tell you if they do not. A shape resting on three posts does not overrule a
+> measurement across hundreds, and it says so rather than agreeing with you.
+
+> **"Which opener works for an account my size?"**
+> Openers cannot be measured on one person's posts — there are never enough of any one
+> kind. This answer only exists across many accounts, which is the whole reason the
+> library is there.
+
+> **"Give me five ideas I have not covered, each with the number behind it."**
+
+<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/ideas-framed.png" alt="A content idea card showing the measured pattern it rests on and how many posts support it" width="100%">
+
+*One of five. Every idea names the figure it rests on and how many posts that figure
+has behind it. An idea that cannot name one is labelled a hunch.*
+
+### Writing it
+
+> **"Draft Thursday's post about the migration, in my voice."**
+> Researched first — what you already said on it, what you saved, how strong writers
+> handled it — then written in the shape your own numbers support, with its sources
+> recorded on the draft.
+
+> **"Here is my draft. Does it read as AI, and is this shape right for me?"**
+
+<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/post-check-framed.png" alt="A draft being checked against the writer's measured patterns and failing the check" width="100%">
+
+*It is not a yes-man. Here the idea it had suggested ten minutes earlier did not survive
+its own check.*
+
+> **"Make the image for this, in my brand look."**
+
+<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/graphics-framed.png" alt="A brand-styled infographic being drawn, self-checked for faults, and verified at phone size" width="100%">
+
+*It read the brand look, drew the chart, found three faults in its own output, fixed
+them, then checked it at phone size.*
+
+### After you post
+
+> **"Review my last quarter."**
+
+<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/cards-framed.png" alt="A quarter of LinkedIn performance summarised in four metric cards with period-on-period change" width="100%">
+
+*Seven tool calls, then the quarter in four numbers. Views up 50%, response rate down
+27% — both, not just the flattering one.*
+
+> **"My reach dropped. Is it what I am writing, or something else?"**
+> If impressions fell while your engagement rate held, that is a distribution story and
+> not a content story. It will say which one your data supports instead of inventing a
+> content explanation for a reach change.
+
+> **"When should I post?"**
+
+<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/two-numbers-framed.png" alt="Two different numbers for the same question, showing a dashboard's best-time claim resting on a single post" width="100%">
+
+*The honest answer, which is often that there is not one. Here a dashboard's "best time
+to post" turned out to be one good post wearing a pattern's clothes.*
+
+### Keeping up with the niche
+
+> **"What is rising in my niche right now, and what is fading?"**
+> Dated searches across your industry plus the niche measurements — reported as
+> directional, with the sample size shown, because ten posts per search is not a census
+> and a trend dressed as a measurement is how people bet a month of content on nothing.
+
+> **"Find posts that worked on founder-led sales, opened with a bold claim."**
+> Filtered by format, hook type, industry and date, ranked by each post's multiple of
+> **its own writer's** average — so you are not just reading whoever has the most
+> followers.
+
+> **"Have I already said this?"**
+> Searched against everything you have published, with how each one performed. Three
+> strong matches that all underperformed means the subject was not the problem; the
+> shape was.
+
 ## The eight agents
 
 Each takes a job, works on its own, and comes back with a result.
@@ -124,6 +224,11 @@ every measurement is computed from.
 **2. Create the key.** **[Settings → MCP](https://app.depost.ai/settings/mcp)**. It
 starts `dp_mcp_`, and the page hands back a connection URL with the key in it.
 
+<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/create-key.png" alt="The Depost key creation screen, with each permission listed and publishing switched off" width="100%">
+
+*Name the key after the account or client that will hold it. Publishing is marked high
+risk and stays off until you choose otherwise.*
+
 **3. Tick the permissions you want.** A new key gets four by default, and they cover
 almost everything:
 
@@ -142,7 +247,14 @@ writes and saves — it just cannot put anything on LinkedIn. That is the recomm
 setup.
 
 **4. Connect it.** In Claude: **Settings → Connectors → Add custom connector**, and
-paste the connection URL. In Claude Code:
+paste the connection URL.
+
+<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/connect-setup.png" alt="The setup instructions inside Depost, showing the five connection steps with a tab for each client" width="100%">
+
+*The same steps inside the product, with a tab per client. The connection URL is blurred
+here for the obvious reason — it contains the key.*
+
+In Claude Code:
 
 ```bash
 claude mcp add --transport http depost "https://api.depost.ai/mcp" \
@@ -154,17 +266,6 @@ anyone.
 
 **The full walkthrough, with screenshots of every step:**
 **[How to connect Claude to LinkedIn](https://depost.ai/blog/connect-claude-to-linkedin)**
-
-## Try it
-
-- *My LinkedIn scorecard* — free, from your own export
-- *Does this draft read as AI?* — free
-- *Run my LinkedIn audit.*
-- *What am I writing too much of?*
-- *What is rising in my niche right now, and what is fading?*
-- *Find me posts that worked on founder-led sales, opened with a bold claim.*
-- *Give me five ideas from what is working in my industry, that I have not covered.*
-- *Draft Thursday's post about the migration, in my voice.*
 
 ## What it does not do
 
