@@ -54,6 +54,22 @@ Four lines, and the third is the one that matters:
 4. **Why it is new for them** — what `search_brand_posts` and `list_saved_ideas`
    returned, including when they returned nothing, which is the best case.
 
+## Presenting what you found
+
+Use a card per post, never blocks of text. For another writer's post: the author with
+their headline, follower count and profile link, their avatar and the post's graphic as
+**links**, then **the multiple of their own typical post in bold with how many of their
+posts it rests on**, the format and hook type, the opening line quoted, a link to the
+real post, and one line on the structural choice that made it work.
+
+Raw likes go after the multiple, as context. Never lead with them — they rank follower
+counts. The full format is in the `viral-search` skill's
+`references/presenting-posts.md`.
+
+Avatars and graphics are URLs by design, not inline pictures: the MCP image block
+carries base64 bytes rather than links, and inlining them would push megabytes through
+one search. Write them as links, and never invent one that is not in the payload.
+
 ## Hard limits
 
 - **Never copy wording.** The mechanism transfers; the sentences do not.

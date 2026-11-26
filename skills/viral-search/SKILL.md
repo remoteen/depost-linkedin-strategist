@@ -55,10 +55,19 @@ each row traces back to the real post.
 
 ## Handing it over
 
-For each post: its multiple of its own writer's average, the opening line, the format
-and hook type, and in one sentence **what structural choice made it work**. The last
-part is the only part worth reading — a list of other people's posts is a swipe file,
-and a swipe file is not advice.
+**Read `references/presenting-posts.md` and use the card format in it.** Ten posts as
+blocks of text is unreadable and buries the only numbers that matter.
+
+Each card carries: the author with their headline, follower count and profile link;
+their avatar and the post's graphic as links; **the multiple of their own typical post
+in bold, with how many of their posts it rests on**; the format and hook type; the
+opening line quoted; a link to the real post; and one line on **what structural choice
+made it work**. That last line is the only part that transfers — a list of other
+people's posts without it is a swipe file, and a swipe file is not advice.
+
+The payload already carries `author.name`, `author.headline`, `author.followers`,
+`author.profileUrl` and `author.avatarUrl`. Use all of them. `list_viral_examples`
+carries `imageUrl` for the graphic itself.
 
 **These are other writers' posts.** Reference for structure, hook and angle only.
 Never copy their wording. Never carry their claims, numbers or results across as this

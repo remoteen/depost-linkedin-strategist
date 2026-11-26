@@ -50,6 +50,15 @@ never carry their claims or numbers over as this person's own. `list_viral_examp
 answers the narrower question of how a layout is built for an account of a given size
 — pass `band` so the examples match.
 
+## Presenting them
+
+A card per post rather than pasted text: author and followers for another writer's,
+title and date for theirs, the multiple of that writer's own typical post in bold, the
+format and hook, the opening line quoted, and the links — the post, the author's
+profile, the avatar, the graphic. The `viral-search` skill's
+`references/presenting-posts.md` has the full format. Avatars and graphics are links by
+design, not inline pictures.
+
 ## What to hand back
 
 Say which of the five you called and which you skipped and why. Then:

@@ -41,6 +41,20 @@ Six lines. A dashboard they already have is not a review.
    the cause and you should say so rather than inventing a content explanation for a
    distribution change.
 
+## Presenting his own posts
+
+A card per post, not a paragraph. Title, date, then **the comparison first** — against
+their own median where you have it, with the baseline named — then impressions,
+reactions, comments and shares as context, then the content type, then a link to the
+post on LinkedIn and to its image where the payload carries one.
+
+Group into beat-your-average and below-it, ordered by the multiple within each group.
+Lead with volume and the reader learns nothing; lead with the comparison and the list
+reads itself.
+
+Several analytics tools do not return a preview image yet. When the field is absent,
+leave the link out — never guess a URL.
+
 ## Honesty rules
 
 - **Every number you state comes from a call you made in this conversation.** Not from
