@@ -76,7 +76,7 @@ with a number attached and tells you how many of your posts that number rests on
 
 > **"What works on my LinkedIn, and what am I writing too much of?"**
 
-<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/shapes-framed.png" alt="A table of post shapes, some scoring above the writer's own average and some below, each with the number of posts behind it" width="100%">
+![A table of post shapes, some scoring above the writer's own average and some below, each with the number of posts behind it](https://statics.depost.ai/blog/connect-claude-to-linkedin/shapes-framed.png)
 
 *Above your own average in blue, below it in red. The number in brackets is how many of
 your posts each line rests on — which is the part that decides whether to believe it.*
@@ -92,7 +92,7 @@ your posts each line rests on — which is the part that decides whether to beli
 
 > **"Give me five ideas I have not covered, each with the number behind it."**
 
-<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/ideas-framed.png" alt="A content idea card showing the measured pattern it rests on and how many posts support it" width="100%">
+![A content idea card showing the measured pattern it rests on and how many posts support it](https://statics.depost.ai/blog/connect-claude-to-linkedin/ideas-framed.png)
 
 *One of five. Every idea names the figure it rests on and how many posts that figure
 has behind it. An idea that cannot name one is labelled a hunch.*
@@ -106,14 +106,14 @@ has behind it. An idea that cannot name one is labelled a hunch.*
 
 > **"Here is my draft. Does it read as AI, and is this shape right for me?"**
 
-<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/post-check-framed.png" alt="A draft being checked against the writer's measured patterns and failing the check" width="100%">
+![A draft being checked against the writer's measured patterns and failing the check](https://statics.depost.ai/blog/connect-claude-to-linkedin/post-check-framed.png)
 
 *It is not a yes-man. Here the idea it had suggested ten minutes earlier did not survive
 its own check.*
 
 > **"Make the image for this, in my brand look."**
 
-<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/graphics-framed.png" alt="A brand-styled infographic being drawn, self-checked for faults, and verified at phone size" width="100%">
+![A brand-styled infographic being drawn, self-checked for faults, and verified at phone size](https://statics.depost.ai/blog/connect-claude-to-linkedin/graphics-framed.png)
 
 *It read the brand look, drew the chart, found three faults in its own output, fixed
 them, then checked it at phone size.*
@@ -122,7 +122,7 @@ them, then checked it at phone size.*
 
 > **"Review my last quarter."**
 
-<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/cards-framed.png" alt="A quarter of LinkedIn performance summarised in four metric cards with period-on-period change" width="100%">
+![A quarter of LinkedIn performance summarised in four metric cards with period-on-period change](https://statics.depost.ai/blog/connect-claude-to-linkedin/cards-framed.png)
 
 *Seven tool calls, then the quarter in four numbers. Views up 50%, response rate down
 27% — both, not just the flattering one.*
@@ -134,7 +134,7 @@ them, then checked it at phone size.*
 
 > **"When should I post?"**
 
-<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/two-numbers-framed.png" alt="Two different numbers for the same question, showing a dashboard's best-time claim resting on a single post" width="100%">
+![Two different numbers for the same question, showing a dashboard's best-time claim resting on a single post](https://statics.depost.ai/blog/connect-claude-to-linkedin/two-numbers-framed.png)
 
 *The honest answer, which is often that there is not one. Here a dashboard's "best time
 to post" turned out to be one good post wearing a pattern's clothes.*
@@ -250,7 +250,7 @@ every measurement is computed from.
 **2. Create the key.** **[Settings → MCP](https://app.depost.ai/settings/mcp)**. It
 starts `dp_mcp_`, and the page hands back a connection URL with the key in it.
 
-<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/create-key.png" alt="The Depost key creation screen, with each permission listed and publishing switched off" width="100%">
+![The Depost key creation screen, with each permission listed and publishing switched off](https://statics.depost.ai/blog/connect-claude-to-linkedin/create-key.png)
 
 *Name the key after the account or client that will hold it. Publishing is marked high
 risk and stays off until you choose otherwise.*
@@ -275,7 +275,7 @@ setup.
 **4. Connect it.** In Claude: **Settings → Connectors → Add custom connector**, and
 paste the connection URL.
 
-<img src="https://statics.depost.ai/blog/connect-claude-to-linkedin/connect-setup.png" alt="The setup instructions inside Depost, showing the five connection steps with a tab for each client" width="100%">
+![The setup instructions inside Depost, showing the five connection steps with a tab for each client](https://statics.depost.ai/blog/connect-claude-to-linkedin/connect-setup.png)
 
 *The same steps inside the product, with a tab per client. The connection URL is blurred
 here for the obvious reason — it contains the key.*
