@@ -100,9 +100,12 @@ has behind it. An idea that cannot name one is labelled a hunch.*
 ### Writing it
 
 > **"Draft Thursday's post about the migration, in my voice."**
-> Researched first — what you already said on it, what you saved, how strong writers
-> handled it — then written in the shape your own numbers support, with its sources
-> recorded on the draft.
+
+![A drafted LinkedIn post beside a panel giving the shape it uses and that shape's score, its length against the writer's median, the ending family, the finding that decided the shape, and a flagged line the writer still has to confirm](assets/screenshots/draft-with-evidence.png)
+
+*Researched first, then written in the shape your numbers support. The panel carries the
+finding behind every choice — and flags the one line it wrote for you that you still
+have to confirm.*
 
 > **"Here is my draft. Does it read as AI, and is this shape right for me?"**
 
@@ -113,10 +116,10 @@ its own check.*
 
 > **"Make the image for this, in my brand look."**
 
-![A brand-styled infographic being drawn, self-checked for faults, and verified at phone size](https://statics.depost.ai/blog/connect-claude-to-linkedin/graphics-framed.png)
+![An infographic drawn in the brand's own confirmed look, with two stat cards and a bar chart whose thin bar is hatched rather than hidden](assets/screenshots/brand-infographic.png)
 
-*It read the brand look, drew the chart, found three faults in its own output, fixed
-them, then checked it at phone size.*
+*Drawn in your own confirmed look at 1080×1350 for the feed. The bar resting on three
+posts is hatched and labelled "too few to say" rather than quietly shown as a finding.*
 
 ### After you post
 
@@ -147,9 +150,12 @@ to post" turned out to be one good post wearing a pattern's clothes.*
 > and a trend dressed as a measurement is how people bet a month of content on nothing.
 
 > **"Find posts that worked on founder-led sales, opened with a bold claim."**
-> Filtered by format, hook type, industry and date, ranked by each post's multiple of
-> **its own writer's** average — so you are not just reading whoever has the most
-> followers.
+
+![Five high-performing posts shown as cards, each with the writer's name, headline, follower count, the multiple of their own typical post, and how many of their posts that average rests on](assets/screenshots/library-cards.png)
+
+*Filtered by format, hook type, industry and date, and ranked by each post's multiple of
+**its own writer's** average rather than by likes — so you are not just reading whoever
+has the most followers. Every card says how many posts that average rests on.*
 
 > **"Have I already said this?"**
 > Searched against everything you have published, with how each one performed. Three
