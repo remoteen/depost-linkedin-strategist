@@ -59,108 +59,80 @@ section most reports leave out: what could not be measured, and why.
 ## How people actually use it
 
 The prompts are ordinary. What makes them worth running is that the answer comes back
-with a number attached and tells you how many of your posts that number rests on.
+with a number attached, and says how many of your posts that number rests on.
 
 ### Free, before you connect anything
 
 > **"Here is my LinkedIn export. Score my posts."**
 > Every post against your own median, your best three and worst three, the pattern
-> across them — and the three things a file cannot tell you.
+> across them, and the three things a file cannot tell you.
 
 > **"Does this draft read as AI?"**
-> Checked against the full standard: the formatting that pastes in as literal
-> characters, the opening that sets a scene instead of making a claim, the tidy lesson
-> at the end.
+> Checked against the full standard: formatting that pastes in as literal characters,
+> an opening that sets a scene instead of making a claim, a tidy lesson at the end.
 
-### Deciding what to write
+### 1. See what your last 90 days actually did
 
-> **"What works on my LinkedIn, and what am I writing too much of?"**
+> **"Review my 90 days and tell me what worked, what didn't, and how to improve."**
 
-![A table of post shapes, some scoring above the writer's own average and some below, each with the number of posts behind it](https://statics.depost.ai/blog/connect-claude-to-linkedin/shapes-framed.png)
+![A 90-day review: four metric cards, reach by month, and every post shape scored against the writer's own typical post with the number of posts behind each bar](assets/screenshots/performance-review.png)
 
-*Above your own average in blue, below it in red. The number in brackets is how many of
-your posts each line rests on — which is the part that decides whether to believe it.*
+*Every bar is a shape scored against your own average, with its post count in brackets.
+Bars resting on five posts or fewer are hatched and labelled hints, not findings. The
+middle card is a loss it refused to call a result, because the tracking was broken.*
 
-> **"I think carousels work for me. Check that."**
-> It will tell you if they do not. A shape resting on three posts does not overrule a
-> measurement across hundreds, and it says so rather than agreeing with you.
+### 2. Find what is working in your niche
 
-> **"Which opener works for an account my size?"**
-> Openers cannot be measured on one person's posts — there are never enough of any one
-> kind. This answer only exists across many accounts, which is the whole reason the
-> library is there.
+> **"Give me five viral posts in my niche."**
+
+![Five high-performing posts as cards, each with the writer's name, headline, follower count, the multiple of their own typical post, and how many of their posts that average rests on](assets/screenshots/library-cards.png)
+
+*Ranked by each post's multiple of **its own writer's** average, never by likes — so a
+2,000-follower account and an 800,000-follower one are comparable. Every card says how
+many of that writer's posts the average rests on, because 1.51× over 1,395 posts and
+1.37× over 75 are different facts.*
+
+### 3. Turn that into ideas you could credibly write
 
 > **"Give me five ideas I have not covered, each with the number behind it."**
 
 ![A content idea card showing the measured pattern it rests on and how many posts support it](https://statics.depost.ai/blog/connect-claude-to-linkedin/ideas-framed.png)
 
-*One of five. Every idea names the figure it rests on and how many posts that figure
-has behind it. An idea that cannot name one is labelled a hunch.*
+*Each idea names the figure it rests on and how many posts that figure has behind it.
+An idea that cannot name one is labelled a hunch.*
 
-### Writing it
+### 4. Write it in your voice
 
-> **"Draft Thursday's post about the migration, in my voice."**
+> **"Create a post on idea 3, in my voice."**
 
 ![A drafted LinkedIn post beside a panel giving the shape it uses and that shape's score, its length against the writer's median, the ending family, the finding that decided the shape, and a flagged line the writer still has to confirm](assets/screenshots/draft-with-evidence.png)
 
-*Researched first, then written in the shape your numbers support. The panel carries the
-finding behind every choice — and flags the one line it wrote for you that you still
-have to confirm.*
+*The panel carries the finding behind every choice. The amber box is the part most tools
+leave out: the one line it wrote for you that you still have to confirm.*
 
-> **"Here is my draft. Does it read as AI, and is this shape right for me?"**
+### 5. Draw the graphic in your own look
 
-![A draft being checked against the writer's measured patterns and failing the check](https://statics.depost.ai/blog/connect-claude-to-linkedin/post-check-framed.png)
+> **"Use my default look and make the infographic for this post."**
 
-*It is not a yes-man. Here the idea it had suggested ten minutes earlier did not survive
-its own check.*
-
-> **"Make the image for this, in my brand look."**
-
-![An infographic drawn in the brand's own confirmed look, with two stat cards and a bar chart whose thin bar is hatched rather than hidden](assets/screenshots/brand-infographic.png)
+![An infographic drawn in the brand's own confirmed look, with two stat cards and a bar chart whose thinnest bar is hatched rather than hidden](assets/screenshots/brand-infographic.png)
 
 *Drawn in your own confirmed look at 1080×1350 for the feed. The bar resting on three
 posts is hatched and labelled "too few to say" rather than quietly shown as a finding.*
 
-### After you post
+### And the ones it will argue with you about
 
-> **"Review my last quarter."**
-
-![A quarter of LinkedIn performance summarised in four metric cards with period-on-period change](https://statics.depost.ai/blog/connect-claude-to-linkedin/cards-framed.png)
-
-*Seven tool calls, then the quarter in four numbers. Views up 50%, response rate down
-27% — both, not just the flattering one.*
+> **"I think carousels work for me. Check that."**
+> It will tell you if they do not. A shape resting on three posts does not overrule a
+> measurement across hundreds, and it says so rather than agreeing with you.
 
 > **"My reach dropped. Is it what I am writing, or something else?"**
 > If impressions fell while your engagement rate held, that is a distribution story and
-> not a content story. It will say which one your data supports instead of inventing a
-> content explanation for a reach change.
-
-> **"When should I post?"**
-
-![Two different numbers for the same question, showing a dashboard's best-time claim resting on a single post](https://statics.depost.ai/blog/connect-claude-to-linkedin/two-numbers-framed.png)
-
-*The honest answer, which is often that there is not one. Here a dashboard's "best time
-to post" turned out to be one good post wearing a pattern's clothes.*
-
-### Keeping up with the niche
-
-> **"What is rising in my niche right now, and what is fading?"**
-> Dated searches across your industry plus the niche measurements — reported as
-> directional, with the sample size shown, because ten posts per search is not a census
-> and a trend dressed as a measurement is how people bet a month of content on nothing.
-
-> **"Find posts that worked on founder-led sales, opened with a bold claim."**
-
-![Five high-performing posts shown as cards, each with the writer's name, headline, follower count, the multiple of their own typical post, and how many of their posts that average rests on](assets/screenshots/library-cards.png)
-
-*Filtered by format, hook type, industry and date, and ranked by each post's multiple of
-**its own writer's** average rather than by likes — so you are not just reading whoever
-has the most followers. Every card says how many posts that average rests on.*
+> not a content story. It says which one your data supports instead of inventing a
+> content explanation.
 
 > **"Have I already said this?"**
-> Searched against everything you have published, with how each one performed. Three
-> strong matches that all underperformed means the subject was not the problem; the
-> shape was.
+> Searched against everything you have published, with how each performed. Three strong
+> matches that all underperformed means the subject was not the problem; the shape was.
 
 ## It reads like an answer, not a database
 
